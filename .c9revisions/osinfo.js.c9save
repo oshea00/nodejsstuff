@@ -1,0 +1,5 @@
+{"ts":1363652296186,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"var os = require('os');\n\nconsole.log('Host:'+os.hostname);\n\n"]],"start1":0,"start2":0,"length1":0,"length2":60}]],"length":60}
+{"contributors":[],"silentsave":false,"ts":1363652339623,"patch":[[{"diffs":[[0,"hostname"],[1,"()"],[0,");\n\n"]],"start1":48,"start2":48,"length1":12,"length2":14}]],"length":62,"saved":false}
+{"ts":1363652404771,"patch":[[{"diffs":[[0,"name());"],[1,"\nconsole.log('Free Memory:'+os.freemem());"],[0,"\n\n"]],"start1":52,"start2":52,"length1":10,"length2":52}]],"length":104,"saved":false}
+{"ts":1363654699088,"patch":[[{"diffs":[[0,"reemem());\n\n"],[1,"var toMegs = function(bytes)\n{\n    return bytes / 1024 / 1000;\n}\n\nmodule.exports.toMegs = toMegs;\n\n"]],"start1":92,"start2":92,"length1":12,"length2":111}]],"length":203,"saved":false}
+{"ts":1363654844134,"patch":[[{"diffs":[[0,"toMegs;\n"],[1,"module.exports.freemem = os.freemem;"],[0,"\n"]],"start1":194,"start2":194,"length1":9,"length2":45}]],"length":239,"saved":false}
